@@ -1,0 +1,16 @@
+{
+  "name": "@invoate/alpine-query-string",
+  "version": "1.0.0",
+  "description": "Bind an AlpineJS property to a query string parameter",
+  "main": "./dist/alpine-query-string.cjs.js",
+  "module": "./dist/alpine-query-string.esm.js",
+  "unpkg": "./dist/alpine-query-string.min.js",
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
+  "author": "Oliver Lumby",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.15"
+  }
+}
