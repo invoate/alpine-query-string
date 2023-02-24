@@ -41,7 +41,16 @@ In your views, you can now use the x-query-string directive.
 
 ```html
 <div x-data="{ selected: 'option' }" x-query-string.param="selected">
-  <!--  -->
+  <!-- When `selected` changes ?param=value will be appended to the url -->
+  <!-- Visiting this page with ?param=value will set `selected` to `value` -->
+</div>
+```
+
+When the first modifier is not set the parameter name will default to the name of the property
+
+```html
+<div x-data="{ selected: 'option' }" x-query-string="selected">
+  <!-- ?selected=value will be appended to the url -->
 </div>
 ```
 
