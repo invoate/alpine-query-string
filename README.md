@@ -1,5 +1,8 @@
 # Query String Binding for AlpineJS
 
+[![Latest Version on NPM](https://img.shields.io/npm/v/@invoate/alpine-query-string?style=flat-square)](https://www.npmjs.com/package/@invoate/alpine-query-string)
+[![Total Downloads](https://img.shields.io/npm/dt/@invoate/alpine-query-string?style=flat-square)](https://www.npmjs.com/package/@invoate/alpine-query-string)
+
 This is a simple plugin for [AlpineJS](https://alpinejs.dev) that binds a property to a specified url query parameter.
 
 ## Installation
