@@ -1,9 +1,5 @@
 # Query String Binding for AlpineJS
 
-<p align="center">
-    :construction: :construction_worker: :warning: <b>This is a work in progress.</b> :warning: :construction_worker: :construction:
-</p>
-
 This is a simple plugin for [AlpineJS](https://alpinejs.dev) that binds a property to a specified url query parameter.
 
 ## Installation
